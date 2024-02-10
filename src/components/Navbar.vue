@@ -3,12 +3,11 @@
 		<div
 			class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"
 		>
-			<a
-				href="/"
+			<RouterLink
+				:to="{ name: 'home' }"
 				class="d-flex align-items-center text-dark text-decoration-none"
+				>Sammi</RouterLink
 			>
-				<h1>Sammi</h1>
-			</a>
 
 			<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
 				<RouterLink
